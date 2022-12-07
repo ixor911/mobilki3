@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.andid.com/tools"
+    xmlns:tools="http://schemas.androty"
+    xmlns:tools2="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".HelpActivity">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6288ff"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/returnBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/return_btn"
+                android:textColor="#fff"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="HELP ME"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Ви знаходитесь у розділу допомоги"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:text="НАВІГАЦІЯ"
+                android:textSize="40sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:text="Щоб відкрити розділ, натисніть по ньому"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_height="400sp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20sp"
+                android:src="@drawable/i1"/>
+
+            <TextView
+                android:text="Щоб повернутись на головну сторінку натисніть на кнопку return"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_height="400sp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20sp"
+                android:src="@drawable/i2"/>
+
+            <TextView
+                android:text="АЛГОРИТМ ХАФФМАНА"
+                android:textSize="40sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:text="Щоб зашифровати текст, спочатку введіть його, потім натисніть на кнопку hash"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_height="400sp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20sp"
+                android:src="@drawable/i3"/>
+
+            <ImageView
+                android:layout_height="400sp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20sp"
+                android:src="@drawable/i4"/>
+
+            <TextView
+                android:text="1-Таблиця частот\n2-Коди кожної літери\n3-Зашифрований текст\n4-Розшифрований текст"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:text="Щоб зберігти текст натисніть кнопку save\nЩоб загрузити збережений текст натисніть read file\n Щоб загрузити останній результат натисніть кнопку load last result"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_height="400sp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20sp"
+                android:src="@drawable/i5"/>
+
+            <TextView
+                android:text="ТАБЛИЦЯ ПШЕНИЦІ"
+                android:textSize="40sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:text="Щоб додати запис натисніть add record"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_height="400sp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20sp"
+                android:src="@drawable/i6"/>
+
+            <TextView
+                android:text="У вас з'явиться вікно додавання\nВам потрібно заповнити усі поля та натиснути save record"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_height="400sp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20sp"
+                android:src="@drawable/i7"/>
+
+            <ImageView
+                android:layout_height="400sp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20sp"
+                android:src="@drawable/i8"/>
+
+            <TextView
+                android:text="1-Усі записи\n2-Середній результат\n3-Найкращі записи"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:text="КОНТАКТИ"
+                android:textSize="40sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:text="Спочатку вам треба дозвотили застосунку переглядати контакти"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_height="400sp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20sp"
+                android:src="@drawable/i9"/>
+
+            <ImageView
+                android:layout_height="400sp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20sp"
+                android:src="@drawable/i10"/>
+
+            <TextView
+                android:text="1-Усі контакти\n2-Контакти, ім'я яких закінчується на літеру 'а'"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:text="GEO SERVICE 3000"
+                android:textSize="40sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:text="Якщо ви бачите сірий екран, то вийдіть з цього розділу та почекайте, у більшості випадків це трапляється тому, що не має зв'язку із гугл картами\nЯкщо не допомогло, перезапустить телефон\nЯкщо і це не допомогло, тоді залишається тільки встати на коління та почати молитись\n(ПС. не треба сварити автора, якщо ви не виконали усі пункти)"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_height="400sp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20sp"
+                android:src="@drawable/i11"/>
+
+            <TextView
+                android:text="Щоб заміряти відстань між двома точками, натисніть перший раз по якомусь місту, потім другий по іншому\nВи побачите повідомлення знизу"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_height="400sp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20sp"
+                android:src="@drawable/i12"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

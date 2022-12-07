@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.andid.com/tools"
+    xmlns:tools="http://schemas.androty"
+    xmlns:tools2="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".HaffmanActivity"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6288ff"
+            android:layout_marginBottom="30sp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/returnBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/return_btn"
+                android:textColor="#fff"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="@string/home_text"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/loadLastResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100sp"
+            android:text="@string/button_load_last_result"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <EditText
+            android:id="@+id/userText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30sp"
+            android:layout_marginTop="60sp"
+            android:autofillHints="@string/input_text_help"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/input_text_help"
+            android:inputType="textMultiLine"
+            android:minHeight="48dp"
+            android:textColorHint="#78909C"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/userTextHashButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30sp"
+                android:text="@string/button_hash_text"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/readFileButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:text="@string/button_read_file"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/userTextSaveButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="35sp"
+                android:text="@string/button_save_text"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            android:id="@+id/frequencyGraph"/>
+
+        <TextView
+            android:id="@+id/codesTableText"
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="30sp"
+            android:ems="10"
+            android:gravity="start|top"/>
+
+        <TextView
+            android:id="@+id/answerText"
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="30sp"
+            android:ems="10"
+            android:gravity="start|top"/>
+
+        <TextView
+            android:id="@+id/unHashedText"
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="30sp"
+            android:ems="10"
+            android:gravity="start|top"/>
+
+
+    </LinearLayout>
+</ScrollView>

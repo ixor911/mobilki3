@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainHeaderText"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="150sp"
+
+        android:layout_height="wrap_content"
+        android:text="@string/main_header_text" />
+
+    <Button
+        android:id="@+id/mainHaffmanBtn"
+        android:layout_below="@id/mainHeaderText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="7sp"
+        android:text="@string/main_haffman_btn"/>
+
+    <Button
+        android:id="@+id/mainWheatBtn"
+        android:layout_below="@id/mainHaffmanBtn"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="7sp"
+        android:layout_height="wrap_content"
+        android:text="@string/main_wheat_btn"/>
+
+    <Button
+        android:id="@+id/mainContactsBtn"
+        android:layout_below="@id/mainWheatBtn"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="7sp"
+        android:layout_height="wrap_content"
+        android:text="@string/main_contacts_btn"/>
+
+    <Button
+        android:id="@+id/mainGeoServiceBtn"
+        android:layout_below="@id/mainContactsBtn"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="7sp"
+        android:layout_height="wrap_content"
+        android:text="@string/main_geoService_btn"/>
+
+    <Button
+        android:id="@+id/mainCreditsBtn"
+        android:layout_below="@id/mainGeoServiceBtn"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="7sp"
+        android:layout_height="wrap_content"
+        android:text="@string/main_credits_btn"/>
+
+    <Button
+        android:id="@+id/mainHelpBtn"
+        android:layout_below="@id/mainCreditsBtn"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="7sp"
+        android:layout_height="wrap_content"
+        android:text="@string/main_help_btn"/>
+
+
+</RelativeLayout>
